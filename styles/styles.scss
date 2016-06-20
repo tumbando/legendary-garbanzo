@@ -1,10 +1,10 @@
 $primary-color: #47a3da;
 $radius: 1rem solid #47a3da;
 
-@mixin border-radius($radius) {
-  border-radius: $radius;
-  border: 1rem solid $primary-color;
-}
+// @mixin border-radius($radius) {
+//   border-radius: $radius;
+//   border: .5rem solid $primary-color;
+// }
 
 
 .company-name {
@@ -12,7 +12,10 @@ $radius: 1rem solid #47a3da;
 }
 
 .title {
-  text-align: center;
+    text-align: center;
+    width: 17%;
+    margin: auto;
+    /* background-color: red; */
 }
 .nav {
   width: 100%;
@@ -28,8 +31,12 @@ $radius: 1rem solid #47a3da;
 
 
 .nav li {
-    display: inline;
-    font-size: 2rem;
-    letter-spacing: 1rem;
-    @include border-radius(1rem);
+    display: inline-block;
+    /* font-size: 2rem; */
+    /* letter-spacing: 1rem; */
+    border: .2rem solid #47a3da;
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    // @include border-radius($radius);
 }

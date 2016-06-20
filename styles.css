@@ -2,7 +2,10 @@
   text-align: center; }
 
 .title {
-  text-align: center; }
+  text-align: center;
+  width: 17%;
+  margin: auto;
+  /* background-color: red; */ }
 
 .nav {
   width: 100%; }
@@ -14,10 +17,12 @@
   text-align: center; }
 
 .nav li {
-  display: inline;
-  font-size: 2rem;
-  letter-spacing: 1rem;
-  border-radius: 1rem;
-  border: 1rem solid #47a3da; }
+  display: inline-block;
+  /* font-size: 2rem; */
+  /* letter-spacing: 1rem; */
+  border: .2rem solid #47a3da;
+  border-radius: 100%;
+  width: 1rem;
+  height: 1rem; }
 
 /*# sourceMappingURL=styles.css.map */

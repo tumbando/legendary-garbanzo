@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Sushi</title>
     <link rel="stylesheet" href="styles/font-awesome.min.css" media="screen" />
-    <link rel="stylesheet" href="styles/styles.css" media="screen" />
+    <link rel="stylesheet" href="styles.css" media="screen" />
   </head>
   <body>
     <header>
@@ -25,6 +25,27 @@
       </ul>
       </div>
     </header>
+    <ul class="tab">
+  <li><a href="#" class="tablinks" onclick="openCity(event, 'London')"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+  <li><a href="#" class="tablinks" onclick="openCity(event, 'Paris')"><i class="fa fa-coffee" aria-hidden="true"></i></a></li>
+  <li><a href="#" class="tablinks" onclick="openCity(event, 'Tokyo')"><i class="fa fa-cutlery" aria-hidden="true"></i></a></li>
+  <li><a href="#" class="tablinks" onclick="openCity(event, 'Tokyo')"><i class="fa fa-flask" aria-hidden="true"></i></a></li>
+  <li><a href="#" class="tablinks" onclick="openCity(event, 'Tokyo')"><i class="fa fa-truck" aria-hidden="true"></i></a></li>
+</ul>
 
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
   </body>
 </html>
