@@ -16,6 +16,8 @@
 .nav li {
   display: inline;
   font-size: 2rem;
-  letter-spacing: 1rem; }
+  letter-spacing: 1rem;
+  border-radius: 1rem;
+  border: 1rem solid #47a3da; }
 
 /*# sourceMappingURL=styles.css.map */

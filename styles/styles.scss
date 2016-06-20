@@ -1,3 +1,12 @@
+$primary-color: #47a3da;
+$radius: 1rem solid #47a3da;
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+  border: 1rem solid $primary-color;
+}
+
+
 .company-name {
   text-align: center;
 }
@@ -22,4 +31,5 @@
     display: inline;
     font-size: 2rem;
     letter-spacing: 1rem;
+    @include border-radius(1rem);
 }
