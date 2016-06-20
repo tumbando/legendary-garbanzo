@@ -1,0 +1,21 @@
+.company-name {
+  text-align: center; }
+
+.title {
+  text-align: center; }
+
+.nav {
+  width: 100%; }
+
+.nav ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  text-align: center; }
+
+.nav li {
+  display: inline;
+  font-size: 2rem;
+  letter-spacing: 1rem; }
+
+/*# sourceMappingURL=styles.css.map */
