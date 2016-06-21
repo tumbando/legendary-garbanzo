@@ -1,5 +1,5 @@
 $primary-color: #47a3da;
-$radius: 1rem solid #47a3da;
+// $radius: 1rem solid #47a3da;
 
 // @mixin border-radius($radius) {
 //   border-radius: $radius;
@@ -34,7 +34,7 @@ $radius: 1rem solid #47a3da;
     display: inline-block;
     /* font-size: 2rem; */
     /* letter-spacing: 1rem; */
-    border: .2rem solid #47a3da;
+    border: .2rem solid $primary-color;
     border-radius: 100%;
     width: 1rem;
     height: 1rem;
@@ -43,6 +43,10 @@ $radius: 1rem solid #47a3da;
 .tab {
   text-align: center;
   padding: 0;
+  width: 100%;
+}
+.tabLinks a {
+  color: $primary-color;
 }
 
 .tab li {
@@ -51,9 +55,25 @@ $radius: 1rem solid #47a3da;
   border: .1rem solid gray;
   }
 
-.tabContent .fa {
-  font-size: 10rem;
+.tabContent {
   text-align: center;
-  padding: 5rem;
-  background-color: red;
 }
+
+  .tabContent .fa {
+      font-size: 10rem;
+      text-align: center;
+      padding: 5rem;
+      background-color: $primary-color;
+      height: 10rem;
+      width: 75%;
+  }
+  .tabContent i {
+    text-align: center;
+  }
+
+  .tabContent h3 {
+    text-align: center;
+  }
+  .tabContent p {
+    text-align: center;
+  }
