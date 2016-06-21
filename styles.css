@@ -1,34 +1,50 @@
-.company-name {
-  text-align: center; }
-
 .title {
+  display: inline-block;
+  min-width: 31%;
   text-align: center;
   width: 17%;
   margin: auto;
-  /* background-color: red; */ }
+  color: #47a3da; }
+
+.company-name {
+  text-align: center;
+  color: #47a3da; }
+
+@media screen and (min-width: 600px) {
+  .title {
+    display: inline; } }
+@media screen and (max-width: 599px) {
+  .title {
+    display: block; } }
+.company-name ul {
+  list-style: none;
+  margin: auto 0;
+  padding: 0; }
+.company-name li {
+  display: inline-block; }
 
 .nav {
   width: 100%; }
-
-.nav ul {
-  list-style: none;
-  width: 100%;
-  padding: 0;
-  text-align: center; }
-
-.nav li {
-  display: inline-block;
-  /* font-size: 2rem; */
-  /* letter-spacing: 1rem; */
-  border: 0.2rem solid #47a3da;
-  border-radius: 100%;
-  width: 1rem;
-  height: 1rem; }
+  .nav ul {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    text-align: center; }
+  .nav li {
+    display: inline-block;
+    border: 0.2rem solid #47a3da;
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem; }
 
 .tab {
   text-align: center;
   padding: 0;
   width: 100%; }
+  .tab li {
+    display: inline-block;
+    width: 19%;
+    border: .1rem solid gray; }
 
 .tabLinks a {
   color: #47a3da; }
@@ -41,12 +57,8 @@
   height: 10rem;
   width: 75%; }
 
-.tab li {
-  display: inline-block;
-  width: 19%;
-  border: .1rem solid gray; }
-
 .tabContent {
+  color: #47a3da;
   text-align: center; }
   .tabContent i {
     text-align: center; }
