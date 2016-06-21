@@ -49,6 +49,14 @@ $primary-color: #47a3da;
   color: $primary-color;
 }
 
+.tabContent .fa {
+    font-size: 10rem;
+    text-align: center;
+    padding: 5rem;
+    background-color: $primary-color;
+    height: 10rem;
+    width: 75%;
+}
 .tab li {
   display:inline-block;
   width: 19%;
@@ -57,23 +65,13 @@ $primary-color: #47a3da;
 
 .tabContent {
   text-align: center;
+    i {
+    text-align: center;
+  }
+    h3 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
 }
-
-  .tabContent .fa {
-      font-size: 10rem;
-      text-align: center;
-      padding: 5rem;
-      background-color: $primary-color;
-      height: 10rem;
-      width: 75%;
-  }
-  .tabContent i {
-    text-align: center;
-  }
-
-  .tabContent h3 {
-    text-align: center;
-  }
-  .tabContent p {
-    text-align: center;
-  }

@@ -33,14 +33,6 @@
 .tabLinks a {
   color: #47a3da; }
 
-.tab li {
-  display: inline-block;
-  width: 19%;
-  border: .1rem solid gray; }
-
-.tabContent {
-  text-align: center; }
-
 .tabContent .fa {
   font-size: 10rem;
   text-align: center;
@@ -49,13 +41,18 @@
   height: 10rem;
   width: 75%; }
 
-.tabContent i {
-  text-align: center; }
+.tab li {
+  display: inline-block;
+  width: 19%;
+  border: .1rem solid gray; }
 
-.tabContent h3 {
+.tabContent {
   text-align: center; }
-
-.tabContent p {
-  text-align: center; }
+  .tabContent i {
+    text-align: center; }
+  .tabContent h3 {
+    text-align: center; }
+  .tabContent p {
+    text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
