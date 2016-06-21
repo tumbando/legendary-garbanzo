@@ -40,3 +40,20 @@ $radius: 1rem solid #47a3da;
     height: 1rem;
     // @include border-radius($radius);
 }
+.tab {
+  text-align: center;
+  padding: 0;
+}
+
+.tab li {
+  display:inline-block;
+  width: 19%;
+  border: .1rem solid gray;
+  }
+
+.tabContent .fa {
+  font-size: 10rem;
+  text-align: center;
+  padding: 5rem;
+  background-color: red;
+}
